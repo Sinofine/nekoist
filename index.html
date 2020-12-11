@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nekoist!</title>
+</head>
+
+<body>
+    <main>
+        <h1 class="neko">你好，</h1>
+        <h1 class="neko">我是猫娘！</h1>
+    </main>
+    <div class="footprint">neko.ist</div>
+    <style>
+        body {
+            background: linear-gradient(135deg, #F97794 10%, #623AA2 100%) fixed;
+            width: 100vw;
+            height: 100vh;
+            margin: 0;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        main {
+            background: white;
+            background-clip: text;
+            color: transparent;
+            -webkit-background-clip: text;
+            justify-self: center;
+        }
+
+        .neko {
+            margin-block: auto;
+            font-size: 10vw;
+            font-weight: 900;
+            font-family: sans-serif;
+        }
+
+        @media screen and (max-width: 600px) {
+            .neko {
+                font-size: 15vw;
+            }
+        }
+
+        .footprint {
+            position: absolute;
+            right: 1em;
+            bottom: 1em;
+            font-size: larger;
+            font-weight: 900;
+            color: white;
+            font-family: sans-serif;
+        }
+    </style>
+</body>
+
+</html>
