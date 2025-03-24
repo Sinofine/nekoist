@@ -12,17 +12,23 @@
         <h1 class="neko">你好，</h1>
         <h1 class="neko">我是猫娘！</h1>
     </main>
-    <div class="footprint">neko.ist</div>
+    <div class="footprint">neko.ist ⋅ <a href="about/">About me</a></div>
     <style>
         body {
-            background: linear-gradient(135deg, #F97794 10%, #623AA2 100%) fixed;
+            background: linear-gradient(135deg in oklab, #F97794 10%, #623AA2 100%) fixed;
             width: 100vw;
             height: 100vh;
             margin: 0;
             display: flex;
             align-items: center;
+            font-family: "Libertinus Serif", "Noto Serif CJK SC", "Source Han Serif SC", serif;
             justify-content: center;
         }
+
+				a {
+						text-decoration: none;
+						color: inherit;
+				}
 
         main {
             background: white;
@@ -36,7 +42,7 @@
             margin-block: auto;
             font-size: 10vw;
             font-weight: 900;
-            font-family: sans-serif;
+            /* font-family: sans-serif; */
         }
 
         @media screen and (max-width: 600px) {
@@ -52,7 +58,6 @@
             font-size: larger;
             font-weight: 900;
             color: white;
-            font-family: sans-serif;
         }
     </style>
 </body>
